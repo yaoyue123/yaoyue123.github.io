@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>珞珈的秋 | yaoyue的博客</title><meta name="author" content="yaoyue"><meta name="copyright" content="yaoyue"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="武汉大学的秋天图片分享">
+<meta property="og:type" content="article">
+<meta property="og:title" content="珞珈的秋">
+<meta property="og:url" content="http://yaoyue123.github.io/2019/12/06/PicutreShare/index.html">
+<meta property="og:site_name" content="yaoyue的博客">
+<meta property="og:description" content="武汉大学的秋天图片分享">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg">
+<meta property="article:published_time" content="2019-12-06T15:13:13.000Z">
+<meta property="article:modified_time" content="2026-08-13T12:28:29.138Z">
+<meta property="article:author" content="yaoyue">
+<meta property="article:tag" content="School">
+<meta property="article:tag" content="Picture">
+<meta property="article:tag" content="WHU">
+<meta property="article:tag" content="秋天">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "珞珈的秋",
+  "url": "http://yaoyue123.github.io/2019/12/06/PicutreShare/",
+  "image": "https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg",
+  "datePublished": "2019-12-06T15:13:13.000Z",
+  "dateModified": "2026-08-13T12:28:29.138Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "yaoyue",
+      "url": "http://yaoyue123.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yaoyue123.github.io/2019/12/06/PicutreShare/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.1.260810"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        try {
+          const data = { value }
+
+          if (ttl != null) {
+            data.expiry = Date.now() + ttl * 86400000
+          }
+
+          localStorage.setItem(key, JSON.stringify(data))
+        } catch (e) {
+          console.error(e)
+        }
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '珞珈的秋',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">yaoyue的博客</span></a><a class="nav-page-title" href="/"><span class="site-name">珞珈的秋</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">珞珈的秋</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2019-12-06T15:13:13.000Z" title="发表于 2019-12-06 23:13:13">2019-12-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-08-13T12:28:29.138Z" title="更新于 2026-08-13 20:28:29">2026-08-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Life/">Life</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p><img src="https://gitee.com/ma_cj/Image/raw/master/pic1.jpeg" alt="樱顶"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic2.jpeg" alt="独思"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic3.jpeg" alt="cafe"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic4.jpeg" alt="樱花大道"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg" alt="武汉大学"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic6.jpeg" alt="邮筒"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic7.jpeg" alt="单车"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic8.jpeg" alt="银杏树"><br><img src="https://gitee.com/ma_cj/Image/raw/master/pic9.jpeg" alt="文体路"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://yaoyue123.github.io">yaoyue</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://yaoyue123.github.io/2019/12/06/PicutreShare/">http://yaoyue123.github.io/2019/12/06/PicutreShare/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://yaoyue123.github.io" target="_blank">yaoyue的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/School/">School</a><a class="post-meta__tags" href="/tags/Picture/">Picture</a><a class="post-meta__tags" href="/tags/WHU/">WHU</a><a class="post-meta__tags" href="/tags/%E7%A7%8B%E5%A4%A9/">秋天</a></div><div class="post-share"><div class="social-share" data-image="https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2019/12/07/Plato/" title="共妻，共产与权智的结合"><img class="cover" src="http://5b0988e595225.cdn.sohucs.com/images/20180124/a4669ee97d3d48ddb2a5e0fd9a65d00e.jpeg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">共妻，共产与权智的结合</div></div><div class="info-2"><div class="info-item-1">共妻，共产与权智的结合理想国作为古希腊哲人柏拉图的著作，通篇读下来感受颇深，以下仅对我印象最深的的第五篇谈一点感想。 1苏格拉底在第五卷开篇提到“朋友之间，女人和孩子应当是共有的。这让格老孔等人难以理解，强烈要求其做出解释。其解释可以大致分为以下几点。首先，是苏格拉底对女性权利的认可。通过论述对公母牧羊犬在照顾羊群上的责任并无明显差异，得出了这样一个结论：性别的差异不足以影响男女在某些工作上发挥相同的作用。就如同“我们不能因秃头的是制鞋的，而禁止长头发的也去制鞋。更为甚者，苏格拉底提出一点：“在治理国家的有关职业，没有哪一个是专门为某一特定性别所设立的，言外之意，就是女性同样也可以参与到国家治理。这是一个超出当时人们理解的观念。这一观点，在现在的我们看起来没有什么大问题，因为男女平等的观念已经深入人心了，也已经有不少女性担任政府要职的例子，如德国总理默克尔。可是在这个世界上，自古以来，就是以男权社会为主，从孔子提出“唯小人和女子难养也”，到古希腊的公民大会仅允许20岁以上男性公民参加。就算是当时最先进的思想也难逃历史的局限。我们应当承认最优秀的男人和女人应当成为一个城邦的守卫者。...</div></div></div></a><a class="pagination-related" href="/2019/12/06/SocialComputing/" title="社会计算实验"><img class="cover" src="https://gitee.com/ma_cj/Image/raw/master/python.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">社会计算实验</div></div><div class="info-2"><div class="info-item-1">社会计算实验报告  实验项目-2-虚假新闻识别 yaoyue   此实验是一个文本二分类问题，实验内容主要依照老师模板完成 环境要求123scikit-learn                       0.19.2numpy                              1.17.3pandas                             0.23.4   数据处理这里用的是pandas库进行处理数据，比较简单方便，但要注意数据集里有一些错误。 12345&gt;&gt;fp[&#x27;label&#x27;].value_counts()0       116041        3626fake        2Name: label, dtype: int64 比如此数据集label中含有两个fake字符,应这样读取label。 1fp[&#x27;label&#x27;].replace(&quot;fake&quot;, &quot;0&quot;).tolist() 在读取新闻的时候，除了读取新闻标题，也应考虑到新闻的来源以及新闻属于的...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">yaoyue</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2019/12/07/Plato/" title="共妻，共产与权智的结合"><img src="http://5b0988e595225.cdn.sohucs.com/images/20180124/a4669ee97d3d48ddb2a5e0fd9a65d00e.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="共妻，共产与权智的结合"/></a><div class="content"><a class="title" href="/2019/12/07/Plato/" title="共妻，共产与权智的结合">共妻，共产与权智的结合</a><time datetime="2019-12-07T14:29:16.000Z" title="发表于 2019-12-07 22:29:16">2019-12-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2019/12/06/PicutreShare/" title="珞珈的秋"><img src="https://gitee.com/ma_cj/Image/raw/master/pic5.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="珞珈的秋"/></a><div class="content"><a class="title" href="/2019/12/06/PicutreShare/" title="珞珈的秋">珞珈的秋</a><time datetime="2019-12-06T15:13:13.000Z" title="发表于 2019-12-06 23:13:13">2019-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2019/12/06/SocialComputing/" title="社会计算实验"><img src="https://gitee.com/ma_cj/Image/raw/master/python.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="社会计算实验"/></a><div class="content"><a class="title" href="/2019/12/06/SocialComputing/" title="社会计算实验">社会计算实验</a><time datetime="2019-12-05T16:24:18.000Z" title="发表于 2019-12-06 00:24:18">2019-12-06</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By yaoyue</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.1.260810</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.1.260810"></script><script src="/js/main.js?v=5.7.1.260810"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
